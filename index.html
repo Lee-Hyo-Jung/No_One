@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이효정 | 자기소개</title>
+    <!-- 폰트 라이브러리 -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- 이미지 슬라이드 라이브러리 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="site-header">
+    <a class="brand" href="#top" aria-label="소개 페이지 처음으로">NO_ONE</a>
+    <nav class="main-nav" aria-label="주요 메뉴">
+      <a href="#about">ABOUT</a>
+      <a href="#gallery">GALLERY</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- 프로필 영역 -->
+    <section class="profile-section" aria-labelledby="profile-title">
+        <!-- 사진영역 -->
+         <div class="photo-frame">
+        <img src="/image/1.png">
+        <span class="photo-label">My Real Face</span>
+      </div>
+      <!-- 컨텐츠 영역 -->
+       <div class="profile-content">
+        <p class="eyebrow">I AM</p>
+        <h1 id="profile-title">이효정</h1>
+        <p class="role">No_One</p>
+        <dl class="profile-details">
+          <div><dt>나이</dt><dd>29세</dd></div>
+          <div><dt>생년월일</dt><dd>1998. 05. 29</dd></div>
+          <div><dt>MBTI</dt><dd>XXXP</dd></div>
+        </dl>
+        <div class="profile-actions">
+          <button class="intro-button" id="introButton" type="button"><i data-lucide="triangle-alert"></i>누르지 마세요</button>
+          <div class="social-links" aria-label="SNS 링크">
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub로 이동" title="GitHub"><i data-lucide="link" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram으로 이동" title="Instagram"><i data-lucide="camera" aria-hidden="true"></i></a>
+            <a href="mailto:hello@example.com" aria-label="이메일 보내기" title="Email"><i data-lucide="mail" aria-hidden="true"></i></a>
+          </div>
+        </div>
+       </div>
+    </section>
+
+    <!-- 소개 영역 -->
+    <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+            <p class="eyebrow">ABOUT ME</p><h2 id="about-title">아직은<br>잘 모르겠습니다.</h2>
+        </div>
+    <div class="about-copy">
+        <p>이것저것 아무거나 다 해보는걸 좋아합니다.<br>지금은 새로운걸 배우는 중입니다.</p>
+        <ul class="keyword-list" aria-label="관심 분야"><li>Couch Potato</li><li>Chilling</li><li>Loafing Around</li><li>Slacking Off</li></ul>
+    </div>
+    </section>
+
+    <!-- 갤러리 영역 -->
+     <section class="gallery-section" id="gallery" aria-labelledby="gallery-title">
+        <div class="gallery-header">
+        <div><p class="eyebrow">MY MOMENTS<br><span class="warning-text">절대 마지막을 보지마</span></p><h2 id="gallery-title">Portfolio</h2></div>
+        <div class="gallery-controls">
+          <button class="gallery-prev" type="button" aria-label="이전 사진" title="이전 사진">
+            <i data-lucide="arrow-left" aria-hidden="true"></i>
+        </button>
+          <button class="gallery-next" type="button" aria-label="다음 사진" title="다음 사진">
+            <i data-lucide="arrow-right" aria-hidden="true"></i>
+        </button>
+        </div>
+      </div>
+      <div class="swiper gallery-swiper">
+        <div class="swiper-wrapper">
+            <article class="swiper-slide gallery-card"><img src="/image/m.png"><p>MissingNo</p></article>
+            <article class="swiper-slide gallery-card"><img src="/image/m.png"><p>MissingNo</p></article>
+            <article class="swiper-slide gallery-card"><img src="/image/m.png"><p>MissingNo</p></article>
+            <article class="swiper-slide gallery-card"><img src="/image/m.png"><p>MissingNo</p></article>
+            <article class="swiper-slide gallery-card"><img src="/image/mi.png"><p>?Mi?s??gNo?</p></article>
+            <article class="swiper-slide gallery-card"><img src="/image/missing.png"><p>��ъ씠2留롪굅��s�대�</p></article>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+     </section>
+    </main>
+    <footer>2026 NO_ONE. ALL RIGHTS RESERVED.</footer>
+
+    <!-- 아이콘 라이브러리 -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- 이미지 슬라이드 라이브러리  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- 경고창 라이브러리 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
